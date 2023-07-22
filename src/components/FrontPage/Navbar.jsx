@@ -1,6 +1,20 @@
+import { useContext } from "react";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../AuthenticationPage/AuthProvider";
 
 const Navbar = () => {
+    const { user, userLogOut } = useContext(AuthContext);
+
+    const handleLogout = () => {
+        userLogOut()
+            .then(() => {
+
+            })
+            .catch(error => {
+                console.log(error);
+            })
+    }
+
     const options = <>
         <li><Link to='/'>Home</Link></li>
         <li><Link to='/college'>College</Link></li>
@@ -8,7 +22,6 @@ const Navbar = () => {
         <li><Link to=''>My College</Link></li>
 
     </>
-    const user = true;
     return (
         <div>
             <div className="navbar bg-base-100 static top-0">
@@ -37,8 +50,8 @@ const Navbar = () => {
                         {
                             user ? <div className="dropdown dropdown-end">
                                 <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-                                    <div className="w-10 rounded-full">
-                                        <img src="/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                                    <div className="lg:tooltip lg:tooltip-bottom w-10 rounded-full" data-tip={user?.displayName} >
+                                        <img src={user?.photoURL} />
                                     </div>
                                 </label>
                                 <ul tabIndex={0} className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
@@ -49,7 +62,9 @@ const Navbar = () => {
                                         </a>
                                     </li>
                                     <li><a>Settings</a></li>
-                                    <li><a>Logout</a></li>
+                                    <li>
+                                        <p onClick={handleLogout} className="p-2 bg-blue">Logout</p>
+                                    </li>
                                 </ul>
                             </div> :
                                 <Link to="/login"><button className="btn btn-primary">Login</button></Link>
