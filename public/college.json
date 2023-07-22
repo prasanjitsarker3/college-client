@@ -1,0 +1,422 @@
+[
+  {
+    "id": 1,
+    "college_image": "https://img.freepik.com/free-photo/aerial-view-residence-bukovinian-dalmatian-metropolitans-chernivtsi-national-university-chernivtsi-touristic-destination-western-ukraine_231208-41.jpg?size=626&ext=jpg&ga=GA1.2.2060036261.1681297115&semt=ais",
+    "rating": 4.5,
+    "college_name": "University of Science and Technology",
+    "admission_dates": {
+      "fall": "September 1 - December 15",
+      "spring": "January 15 - April 30",
+      "summer": "May 1 - August 15"
+    },
+    "admission_process": "Prospective students can apply online through the university website or submit a paper application. The admission process involves reviewing academic records, standardized test scores, and may include interviews for certain programs.",
+    "events": [
+      {
+        "event_name": "Orientation Day",
+        "date": "September 5",
+        "location": "University Campus"
+      },
+      {
+        "event_name": "Annual Science Fair",
+        "date": "November 10",
+        "location": "Science Building"
+      },
+      {
+        "event_name": "Career Development Workshop",
+        "date": "February 20",
+        "location": "Student Center"
+      },
+      {
+        "event_name": "Cultural Fest",
+        "date": "April 15-17",
+        "location": "Various Locations"
+      }
+    ],
+    "research_history": "The Education and Teaching Institute is committed to preparing educators who can inspire and empower students. Our research focuses on innovative teaching methods, curriculum development, and educational policies.",
+    "research_works": [
+      "Quantum Computing and Its Applications",
+      "Advancements in Renewable Energy",
+      "Cancer Immunotherapy Breakthroughs",
+      "Artificial Intelligence Ethics"
+    ],
+    "sports_categories": [
+      "Basketball",
+      "Soccer",
+      "Swimming",
+      "Tennis",
+      "Volleyball",
+      "Badminton",
+      "Chess Club",
+      "Dance Team"
+    ]
+  },
+  {
+    "id": 2,
+    "college_image": "https://img.freepik.com/free-photo/hercules-hall-surrounded-by-greenery-sunlight-daytime-munich-germany_181624-17876.jpg?size=626&ext=jpg&ga=GA1.1.2060036261.1681297115&semt=sph",
+    "rating": 5,
+    "college_name": "Arts and Humanities College",
+    "admission_dates": {
+      "fall": "October 1 - January 31",
+      "spring": "February 15 - May 31"
+    },
+    "admission_process": "The Arts and Humanities College welcomes applications from students with a passion for the arts, literature, and humanities. Prospective students can apply online or through the college admission office. Admissions decisions are based on academic achievements, recommendation letters, and a personal statement.",
+    "events": [
+      {
+        "event_name": "Art Exhibition",
+        "date": "November 20",
+        "location": "Art Gallery"
+      },
+      {
+        "event_name": "Literary Symposium",
+        "date": "March 5",
+        "location": "Auditorium"
+      },
+      {
+        "event_name": "History Conference",
+        "date": "April 25-27",
+        "location": "History Department"
+      },
+      {
+        "event_name": "Cultural Diversity Week",
+        "date": "May 10-14",
+        "location": "Various Locations"
+      }
+    ],
+    "research_history": "The Education and Teaching Institute is committed to preparing educators who can inspire and empower students. Our research focuses on innovative teaching methods, curriculum development, and educational policies.",
+    "research_works": [
+      "Modern Art and Its Influence",
+      "Exploring Historical Narratives",
+      "Cultural Impact of Literature",
+      "Language and Identity"
+    ],
+    "sports_categories": [
+      "Athletics",
+      "Badminton",
+      "Chess Club",
+      "Dance Team"
+    ]
+  },
+  {
+    "id": 3,
+    "college_image": "https://img.freepik.com/premium-photo/king-s-college-chapel-cambridge_1339-82841.jpg?size=626&ext=jpg&ga=GA1.1.2060036261.1681297115&semt=sph",
+    "rating": 4,
+    "college_name": "Business and Economics Institute",
+    "admission_dates": {
+      "fall": "August 15 - December 1",
+      "spring": "January 5 - April 15"
+    },
+    "admission_process": "Aspiring business students can apply to the Business and Economics Institute by submitting their academic records, standardized test scores, and a statement of purpose. The institute may conduct interviews for selected candidates.",
+    "events": [
+      {
+        "event_name": "Entrepreneurship Summit",
+        "date": "September 30",
+        "location": "Conference Center"
+      },
+      {
+        "event_name": "Finance Forum",
+        "date": "February 15",
+        "location": "Financial District"
+      },
+      {
+        "event_name": "Business Expo",
+        "date": "March 25-27",
+        "location": "Exhibition Hall"
+      },
+      {
+        "event_name": "Leadership Seminar",
+        "date": "April 10",
+        "location": "Lecture Hall"
+      }
+    ],
+    "research_history": "The Education and Teaching Institute is committed to preparing educators who can inspire and empower students. Our research focuses on innovative teaching methods, curriculum development, and educational policies.",
+    "research_works": [
+      "Sustainable Business Practices",
+      "Economic Policy Analysis",
+      "Digital Marketing Trends",
+      "Corporate Social Responsibility"
+    ],
+    "sports_categories": [
+      "Cricket",
+      "Golf",
+      "Table Tennis",
+      "Track and Field"
+    ]
+  },
+  {
+    "id": 4,
+    "college_image": "https://img.freepik.com/premium-photo/king-s-college-chapel-cambridge-uk_1339-91474.jpg?size=626&ext=jpg&ga=GA1.1.2060036261.1681297115&semt=sph",
+    "rating": 4,
+    "college_name": "Health Sciences University",
+    "admission_dates": {
+      "fall": "September 1 - December 31",
+      "spring": "January 15 - April 30",
+      "summer": "May 15 - August 31"
+    },
+    "admission_process": "Health Sciences University seeks motivated and compassionate students for its health-related programs. Applicants are evaluated based on their academic background, personal statement, and interviews (if required).",
+    "events": [
+      {
+        "event_name": "Medical Symposium",
+        "date": "October 5-7",
+        "location": "Medical School Auditorium"
+      },
+      {
+        "event_name": "Nursing Conference",
+        "date": "March 20",
+        "location": "Nursing Building"
+      },
+      {
+        "event_name": "Health Expo",
+        "date": "April 15",
+        "location": "Student Center"
+      },
+      {
+        "event_name": "Wellness Week",
+        "date": "August 10-14",
+        "location": "Various Locations"
+      }
+    ],
+    "research_works": [
+      "Advances in Medical Imaging",
+      "Nursing Education and Practices",
+      "Public Health Interventions",
+      "Pharmaceutical Research"
+    ],
+    "sports_categories": [
+      "Football",
+      "Basketball",
+      "Swimming",
+      "Volleyball",
+      "Gymnastics"
+    ]
+  },
+  {
+    "id": 5,
+    "college_image": "https://img.freepik.com/premium-photo/east-facade-sever-hall-harvard-yard-harvard-university-massachusetts-ma-usa-it-is-used-as-library-lecture-hall-classroom-different-courses_250132-22636.jpg?size=626&ext=jpg&ga=GA1.1.2060036261.1681297115&semt=sph",
+    "rating": 4.5,
+    "college_name": "Engineering and Technology College",
+    "admission_dates": {
+      "fall": "September 15 - December 31",
+      "spring": "January 30 - May 15"
+    },
+    "admission_process": "The Engineering and Technology College looks for aspiring engineers and technologists. Applicants are required to submit academic transcripts, letters of recommendation, and may be called for entrance exams or interviews.",
+    "events": [
+      {
+        "event_name": "Engineering Expo",
+        "date": "October 10-12",
+        "location": "Engineering Building"
+      },
+      {
+        "event_name": "Tech Hackathon",
+        "date": "February 25-27",
+        "location": "Computer Science Lab"
+      },
+      {
+        "event_name": "Innovation Showcase",
+        "date": "April 5-7",
+        "location": "Innovation Center"
+      },
+      {
+        "event_name": "Robotics Competition",
+        "date": "May 10",
+        "location": "Robotics Arena"
+      }
+    ],
+    "research_history": "The Education and Teaching Institute is committed to preparing educators who can inspire and empower students. Our research focuses on innovative teaching methods, curriculum development, and educational policies.",
+    "research_works": [
+      "Artificial Intelligence and Robotics",
+      "Green Technologies",
+      "Civil Engineering Innovations",
+      "Electronics and Communication Advancements"
+    ],
+    "sports_categories": [
+      "Soccer",
+      "Cricket",
+      "Tennis",
+      "Athletics"
+    ]
+  },
+  {
+    "id": 6,
+    "college_image": "https://img.freepik.com/free-photo/aerial-view-residence-bukovinian-dalmatian-metropolitans-chernivtsi-national-university-chernivtsi-touristic-destination-western-ukraine_231208-51.jpg?size=626&ext=jpg&ga=GA1.1.2060036261.1681297115&semt=sph",
+    "rating": 4.5,
+    "college_name": "Education and Teaching Institute",
+    "admission_dates": {
+      "fall": "October 1 - December 15",
+      "spring": "January 10 - April 30"
+    },
+    "admission_process": "The Education and Teaching Institute seeks dedicated individuals passionate about shaping young minds. Prospective educators need to complete an application form, submit academic records, and may undergo interviews or teaching demonstrations.",
+    "events": [
+      {
+        "event_name": "Education Summit",
+        "date": "October 15-17",
+        "location": "Education Building"
+      },
+      {
+        "event_name": "Teacher's Workshop",
+        "date": "February 5-6",
+        "location": "Teaching Center"
+      },
+      {
+        "event_name": "Pedagogy Conference",
+        "date": "March 20-22",
+        "location": "Conference Hall"
+      },
+      {
+        "event_name": "Inclusive Education Forum",
+        "date": "April 15",
+        "location": "Lecture Room"
+      }
+    ],
+    "research_history": "The Education and Teaching Institute is committed to preparing educators who can inspire and empower students. Our research focuses on innovative teaching methods, curriculum development, and educational policies.",
+    "research_works": [
+      "Effective Classroom Strategies",
+      "Education Policy Analysis",
+      "Special Education Practices",
+      "Digital Learning Environments"
+    ],
+    "sports_categories": [
+      "Basketball",
+      "Volleyball",
+      "Table Tennis",
+      "Swimming"
+    ]
+  },
+  {
+    "id": 7,
+    "college_image": "https://img.freepik.com/free-photo/school-teaching-building_1205-819.jpg?size=626&ext=jpg&ga=GA1.1.2060036261.1681297115&semt=sph",
+    "rating": 4.5,
+    "college_name": "Law and Justice School",
+    "admission_dates": {
+      "fall": "August 1 - November 30",
+      "spring": "December 15 - March 31"
+    },
+    "admission_process": "The Law and Justice School welcomes aspiring legal professionals. Applicants need to submit their academic records, LSAT scores (if applicable), recommendation letters, and may be called for interviews.",
+    "events": [
+      {
+        "event_name": "Legal Symposium",
+        "date": "September 20-22",
+        "location": "Law School Auditorium"
+      },
+      {
+        "event_name": "Mock Trials",
+        "date": "February 10-12",
+        "location": "Courtroom"
+      },
+      {
+        "event_name": "Human Rights Conference",
+        "date": "March 25",
+        "location": "Human Rights Center"
+      },
+      {
+        "event_name": "Law Fair",
+        "date": "April 10",
+        "location": "Campus Plaza"
+      }
+    ],
+    "research_history": "The Education and Teaching Institute is committed to preparing educators who can inspire and empower students. Our research focuses on innovative teaching methods, curriculum development, and educational policies.",
+    "research_works": [
+      "Constitutional Law Debates",
+      "Criminal Justice Reforms",
+      "International Law Perspectives",
+      "Legal Ethics and Professionalism"
+    ],
+    "sports_categories": [
+      "Moot Court",
+      "Basketball",
+      "Soccer",
+      "Chess Club"
+    ]
+  },
+  {
+    "id": 8,
+    "college_image": "https://img.freepik.com/free-photo/harvard-university-cambridge-usa_1268-14363.jpg?size=626&ext=jpg&ga=GA1.1.2060036261.1681297115&semt=sph",
+    "rating": 5,
+    "college_name": "Social Sciences Institute",
+    "admission_dates": {
+      "fall": "September 1 - December 15",
+      "spring": "January 10 - April 30"
+    },
+    "admission_process": "The Social Sciences Institute is looking for students interested in the study of human behavior and society. Prospective students must apply through the college website or admissions office and may be invited for interviews.",
+    "events": [
+      {
+        "event_name": "Social Sciences Symposium",
+        "date": "October 20-22",
+        "location": "Social Sciences Building"
+      },
+      {
+        "event_name": "Psychology Conference",
+        "date": "February 28",
+        "location": "Psychology Department"
+      },
+      {
+        "event_name": "Sociology Forum",
+        "date": "March 15",
+        "location": "Sociology Hall"
+      },
+      {
+        "event_name": "Anthropology Exhibition",
+        "date": "April 5-7",
+        "location": "Anthropology Museum"
+      }
+    ],
+    "research_history": "The Education and Teaching Institute is committed to preparing educators who can inspire and empower students. Our research focuses on innovative teaching methods, curriculum development, and educational policies.",
+    "research_works": [
+      "Social Psychology Studies",
+      "Sociological Trends",
+      "Cultural Anthropology Research",
+      "Gender Studies"
+    ],
+    "sports_categories": [
+      "Basketball",
+      "Volleyball",
+      "Badminton",
+      "Yoga Club"
+    ]
+  },
+  {
+    "id": 9,
+    "college_image": "https://img.freepik.com/free-photo/school-teaching-building_1205-819.jpg?size=626&ext=jpg&ga=GA1.1.2060036261.1681297115&semt=sph",
+    "rating": 4.5,
+    "college_name": "Media and Communication College",
+    "admission_dates": {
+      "fall": "October 15 - January 31",
+      "spring": "February 10 - May 30"
+    },
+    "admission_process": "Prospective students interested in media and communication can apply to the college by submitting their academic records, a portfolio of creative works (if applicable), and may be required to participate in an interview or submit a statement of purpose.",
+    "events": [
+      {
+        "event_name": "Media Fest",
+        "date": "November 15-17",
+        "location": "Media Building"
+      },
+      {
+        "event_name": "Communication Conference",
+        "date": "March 10-12",
+        "location": "Conference Center"
+      },
+      {
+        "event_name": "Journalism Workshop",
+        "date": "April 20-22",
+        "location": "Journalism Lab"
+      },
+      {
+        "event_name": "Film Festival",
+        "date": "May 25-27",
+        "location": "Film Auditorium"
+      }
+    ],
+    "research_history": "The Education and Teaching Institute is committed to preparing educators who can inspire and empower students. Our research focuses on innovative teaching methods, curriculum development, and educational policies.",
+    "research_works": [
+      "Media Effects and Society",
+      "Journalism Ethics",
+      "Advertising and Consumer Behavior",
+      "Digital Media Innovation"
+    ],
+    "sports_categories": [
+      "Football",
+      "Basketball",
+      "Table Tennis",
+      "Film Club"
+    ]
+  }
+]
