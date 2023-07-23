@@ -14,7 +14,7 @@ const PopularCollege = () => {
     }
     return (
         <div>
-            <h1 className="text-3xl text-center text-teal-500 py-7">Popular College </h1>
+            <h1 className="text-3xl text-center text-teal-500 mt-14 py-7">Popular College </h1>
             <div className="grid md:grid-cols-3 gap-5">
                 {
                     allCollege.slice(0, 3).map(college => <div key={college._id}>

@@ -20,7 +20,7 @@ const BookedAdmission = ({ admission, setAdmission }) => {
                 setAdmission(null);
                 if (data.acknowledged) {
                     Swal.fire({
-                        title: 'Thank you for yours consultation, Waiting few minute and check your email.',
+                        title: 'Successfully Added College',
                         showClass: {
                             popup: 'animate__animated animate__fadeInDown'
                         },

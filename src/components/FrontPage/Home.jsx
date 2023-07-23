@@ -1,9 +1,13 @@
+import Contract from "./Contract";
+import Feedback from "./Feedback";
+import Gallery from "./Gallery";
 import PopularCollege from "./PopularCollege";
+import Research from "./Research";
 
 const Home = () => {
     return (
         <div className='px-3'>
-            <div className="carousel w-full py-2 md:h-[500px] h-[700px]">
+            <div className="carousel py-2 md:h-[500px] h-[700px]">
                 <div id="slide1" className="carousel-item relative w-full ">
                     <img src="https://img.freepik.com/premium-photo/view-metcalfe-park-sydney_261932-2159.jpg?size=626&ext=jpg&ga=GA1.1.2060036261.1681297115&semt=ais" className="w-full rounded-xl" />
                     <div className="absolute rounded-xl flex items-center h-full left-0 top-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
@@ -15,7 +19,7 @@ const Home = () => {
                                 <button className="btn btn-warning mr-4">Admission</button>
                                 <button className="btn btn-outline btn-success">Campus</button>
 
-                            </div>
+                            </div> 
                         </div>
                     </div>
                     <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5  bottom-0">
@@ -83,6 +87,10 @@ const Home = () => {
             </div>
             <div>
                 <PopularCollege></PopularCollege>
+                <Gallery></Gallery>
+                <Research></Research>
+                <Feedback></Feedback>
+                <Contract></Contract>
             </div>
         </div>
     );
