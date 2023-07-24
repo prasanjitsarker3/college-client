@@ -8,13 +8,13 @@ const Navbar = () => {
     const [search, setSearch] = useState("");
 
     useEffect(() => {
-        fetch(`http://localhost:5000/college?search=${search}`)
+        fetch(`http://localhost:5000/college?search=${search}`) 
             .then(res => res.json())
             .then(data => setSearch(data))
     }, [search])
     
     const handleSearch = (event) => {
-        event.preventDefault();
+        event.preventDefault(); 
         const searchText = useSearch.current.value;
         setSearch(searchText);
         // event.target.reset();

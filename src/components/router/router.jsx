@@ -10,6 +10,7 @@ import MyCollege from "../RoutingPage/MyCollege";
 import PrivateRoute from "../AuthenticationPage/PrivateRoute";
 import ProfileInformation from "../RoutingPage/ProfileInformation";
 import ErrorPage from "../RoutingPage/ErrorPage";
+import UpdateProfile from "../RoutingPage/UpdateProfile";
 
 
 
@@ -25,12 +26,12 @@ const router = createBrowserRouter([
             },
             {
                 path: "college",
-                element: <College></College>
+                element: <College></College> 
             }
             ,
             {
                 path: "admission",
-                element: <Admission></Admission>
+                element: <PrivateRoute><Admission></Admission></PrivateRoute>
             }
             ,
             {
@@ -55,6 +56,10 @@ const router = createBrowserRouter([
             {
                 path:"profile",
                 element:<ProfileInformation></ProfileInformation>
+            },
+            {
+                path:"update",
+                element:<UpdateProfile></UpdateProfile>
             }
           
         ]
